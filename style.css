@@ -13,19 +13,27 @@ html {
 body {
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
     justify-content: center;
     align-items: center;
 }
 
 .container {
     display: grid;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
 }
 
 .grid-item {
     border: 1px solid black;
-    
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    font-size: 2rem;
 }
 
 
