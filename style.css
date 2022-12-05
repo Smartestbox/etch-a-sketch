@@ -19,6 +19,12 @@ body {
     align-items: center;
 }
 
+.control-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
 .container {
     display: grid;
     width: 600px;
